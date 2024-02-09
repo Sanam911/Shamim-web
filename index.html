@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Web</title>
+
+    <script src="https://kit.fontawesome.com/e1688c4999.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <div>
+                <img src="image/WhatsApp Image 2024-02-09 at 1.33.05 AM.jpeg" alt="">
+            </div>
+            <nav>
+                <div class="navbar bg-sky-500 text-white font-bold text-5xl gap-4	">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-600 text-white rounded-box w-52 ">
+                                <li>
+                                    <details>
+                                        <summary>EXPATRIATES</summary>
+                                        <ul class="p-2">
+                                            <li><a>LIVING THE EXPAT LIFE</a></li>
+                                            <li><a>FIVE TIPS FOR BECOMING AN EXPAT</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>ADVICE</summary>
+                                        <ul class="p-2">
+                                            <li><a>MOVING ABROAD</a></li>
+                                            <li><a>EDUCATION ABROAD</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>GUIDE TO LIVING ABROAD</summary>
+                                        <ul class="p-2">
+                                            <li><a>BEST PLACE TO LIVE ABROAD</a></li>
+                                            <li><a>SAFEST PLACE IN THE WORLD TO LIVE</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>HEALTH</summary>
+                                        <ul class="p-2">
+                                            <li><a>HEALTH AND WELLNESS ADVICE FOR EXPATS</a></li>
+                                            <li><a>HOSPITAL SEARCH</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>ENTERNATIONAL FINANCE</summary>
+                                        <ul class="p-2">
+                                            <li><a>INTERNATIONAL TAX ADVICE</a></li>
+                                            <li><a>TAXATION OF AMERICAN EXPATS</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost text-xl">HOME</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex ">
+                        <ul class="menu menu-horizontal px-1">
+                            <li>
+                                <details>
+                                    <summary>EXPATRIATES</summary>
+                                    <ul class="p-2 bg-sky-500 rounded-none	">
+                                        <li><a>LIVING THE EXPAT LIFE</a></li>
+                                        <li><a>FIVE TIPS FOR BECOMING AN EXPAT</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>ADVICE</summary>
+                                    <ul class="p-2 bg-sky-500 rounded-none	">
+                                        <li><a>MOVING ABROAD</a></li>
+                                        <li><a>EDUCATION ABROAD</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>GUIDE TO LIVING ABROAD</summary>
+                                    <ul class="p-2 bg-sky-500 rounded-none	">
+                                        <li><a>BEST PLACE TO LIVE ABROAD</a></li>
+                                        <li><a>SAFEST PLACE IN THE WORLD TO LIVE</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>HEALTH</summary>
+                                    <ul class="p-2 bg-sky-500 rounded-none	">
+                                        <li><a>HEALTH AND WELLNESS ADVICE FOR EXPATS</a></li>
+                                        <li><a>HOSPITAL SEARCH</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>ENTERNATIONAL FINANCE</summary>
+                                    <ul class="p-2 bg-sky-500 rounded-none	">
+                                        <li><a>INTERNATIONAL TAX ADVICE</a></li>
+                                        <li><a>TAXATION OF AMERICAN EXPATS</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn btn-warning text-white font-bold">GLOBAL HR</a>
+                    </div>
+                </div>
+
+            </nav>
+        </section>
+
+
+    </header>
+
+    <main>
+        <section>
+            <div class="flex flex-row justify-around">
+                <div class="m-5">
+
+                    <div class="mt-8">
+                        <a class="text-sky-500" href=""><u>Home</u></a> <i class="fa-solid fa-greater-than"></i>
+                        <a class="text-sky-500" href=""><u> Expatriates </u></a> <i
+                            class="fa-solid fa-greater-than"></i>
+                        <a class="text-sky-500" href=""><u>Resources for Expatriates </u></a> <i
+                            class="fa-solid fa-greater-than"></i>
+                        <a class="text-sky-500" href="">International Calling Codes
+                        </a>
+                    </div>
+
+                    <div class="mt-6">
+                        <h1 class="text-sky-500 font-bold text-4xl mb-2">International Calling Codes</h1>
+
+                        <hr>
+                        <img class="float-right m-8" src="image/gabriel-gonzalez-LCqbUcMUO0c-unsplash-150x150.webp"
+                            alt="">
+
+                        <p class="text-xl leading-9 mt-8	">
+                            As lifelong world travelers, we know that making international calls can be confusing at
+                            first. Our team has been helping our clients communicate across borders for over 10 years,
+                            and we’ve assembled a simple tool to help you locate the right <b>calling codes</b> for
+                            every
+                            country in the world. <br>
+                        </p>
+
+
+
+                        <p class="text-xl leading-9 mt-8	">
+                            Just locate the country you’re in on the first drop-down menu below, then pick the country
+                            you’re calling to in the second drop-down. The tool will show you exactly what numbers you
+                            need to dial to make the connection.
+                        </p>
+
+                        <p class="text-xl leading-9 mt-8	">
+                            Below the tool, you’ll find tips for international phone calls, plus an up-to-date table of
+                            international calling codes and time zones.
+
+                        </p>
+
+
+                    </div>
+
+                    <div class="mt-6">
+                        <h3 class="text-3xl font-bold">International Country Code Search, Choose:</h3>
+                        <form class="mt-6 text-xl" action="">
+                            <label for="">Country you are calling from:</label>
+                            <br>
+                            <select class="border-collapse border-2 border-gray-300 w-[700px] h-[50px] mt-5" name="Country" id="country">
+                                <option  value="-Choose a Country-">-Choose a Country-</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="India">India</option>
+                                <option value="France">France</option>
+
+                            </select>
+                        </form>
+
+                        <form class="mt-6 text-xl" action="">
+                            <label for="">Country you are calling to:</label>
+                            <br>
+                            <select class="border-collapse border-2 border-gray-300 w-[700px] h-[50px] mt-5" name="Country" id="country">
+                                <option  value="-Choose a Country-">-Choose a Country-</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="India">India</option>
+                                <option value="France">France</option>
+
+                            </select>
+                        </form>
+
+                    </div>
+
+                    <div class="mt-6">
+                        <h3 class="text-3xl font-bold">You Dial:</h3>
+
+                        <form class="mt-6 text-xl" action="">
+                            <label for="">International Access Code:</label>
+                            <input class="w-[50px]" type="text" name="" id="">
+                            <label for="">+ Country Code:</label>
+                            <input class="w-[50px]" type="text" name="" id="">
+                            <label for="">+ Local Phone Number</label>
+                        </form>
+                    </div>
+
+
+                </div>
+
+               
+
+
+                <div>
+                    <aside class="">
+                        <div
+                            class="border-collapse border-2 w-[400px] h-[200px] m-4 flex flex-col gap-4 justify-center items-center">
+                            <div>
+                                <h3 class="text-3xl">Search Website</h3>
+                            </div>
+
+                            <div>
+                                <form action="">
+                                    <input class="border-collapse border-2	p-4 border-black" type="text" name="" id=""
+                                        placeholder="Search this website">
+                                </form>
+                            </div>
+
+
+                        </div>
+
+                        <div
+                            class="border-collapse border-2 w-[400px] h-[200px] m-4 flex flex-col gap-4 justify-center items-center">
+                            <div>
+                                <h3 class="text-3xl">Related Articles</h3>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li><a class="text-sky-600" href=""><i
+                                                class="fa-solid fa-greater-than text-sky-600"></i> <u>International
+                                                Calling
+                                                Codes</u></a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+                        <div
+                            class="border-collapse border-2 w-[400px] h-[300px] m-4 flex flex-col gap-4 justify-center items-center">
+                            <div>
+                                <h3 class="text-3xl">Search Website</h3>
+                            </div>
+
+                            <div>
+
+                                <ul class="list-disc underline-offset-1	text-sky-600 text-l items-center">
+                                    <li class="mt-2">
+                                        <a href=""><u>Move Abroad Checklist</u></a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href=""><u>Becoming an Expat</u></a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href=""><u>Best International Countries and Cities to Live in</u></a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href=""><u>How To Move to Canada</u></a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href=""><u>Work Abroad - Be a Global Nomad</u></a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href=""><u>How To Get Dual Citizenship</u></a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="w-[400px] m-4 ">
+                            <h3 class="text-3xl mb-6 mt-8">Expat Medical Insurance</h3>
+                            <div class="bg-sky-500 flex flex-col justify-center items-center gap-4">
+                                <div class="mt-8"><img src="image/image2.jpeg" alt=""></div>
+
+                                <div class="flex flex-col justify-center items-center gap-4">
+                                    <div>
+                                        <h3 class="text-xl text-white">Find the Best International</h3>
+                                        <h3 class="text-xl text-white">Health Insurance</h3>
+                                    </div>
+
+                                    <div>
+                                        <p class="items-center p-4 text-white">Expert agents will speak with you to
+                                            understand your needs, research options, provide multiple quotes, review
+                                            coverage details, answer all of your questions, and find the right plan for
+                                            YOU!</p>
+                                    </div>
+
+                                    <div class="mb-8">
+                                        <a class="btn btn-warning text-white font-bold text-xl">Request a Free Quote</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="w-[400px] m-4 ">
+
+                            <div class="">
+                                <h3 class="text-3xl mt-8 mb-6 ">Monthly Newsletter Sign Up</h3>
+                                <div class="border-collapse border-2 border-zinc-900 p-4">
+                                    <h3 class="text-2xl font-bold">Sign Up Today!</h3>
+                                    <form action="">
+                                        <label for="">Email</label> <br>
+                                        <input class="border-collapse border-2 rounded-md w-[300px]" type="email"
+                                            name="" id="">
+
+                                        <br><br>
+
+                                        <label for="">First Name</label> <br>
+                                        <input class="border-collapse border-2 rounded-md w-[300px]" type="text" name=""
+                                            id="">
+
+                                        <br><br>
+
+                                        <label for="">First Name</label> <br>
+                                        <input class="border-collapse border-2 rounded-md w-[300px]" type="text" name=""
+                                            id="">
+
+                                        <br><br>
+
+                                        <a class="btn btn-warning text-white font-bold">Submit</a>
+
+
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+</body>
+
+</html>
